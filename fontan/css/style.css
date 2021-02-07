@@ -1,0 +1,299 @@
+.debug {  border: 1px red solid; }
+.debug-green {border: 1px green solid; }
+.debug-blue {border: 1px blue solid; }
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.home-video {
+  display: block;
+  margin-top: -50px;
+ border: 1px red solid;
+ display: none; 
+}
+
+.main-content {  width: 100%; }
+
+  @font-face {
+      font-family: "PTSansItalic";
+      src: url("../fonts/PTSansItalic/PTSansItalic.eot");
+      src: url("../fonts/PTSansItalic/PTSansItalic.eot?#iefix")format("embedded-opentype"),
+      url("../fonts/PTSansItalic/PTSansItalic.woff") format("woff"),
+      url("../fonts/PTSansItalic/PTSansItalic.ttf") format("truetype");
+      font-style: normal;
+      font-weight: normal;
+  }
+
+@font-face {
+  font-family: PhilosopherBold;
+  src: url(../fonts/Philosopher-Bold.ttf); 
+}
+@font-face {
+  font-family: PhilosopherBoldItalic;
+  src: url(../fonts/Philosopher-BoldItalic.ttf);
+}
+
+@font-face {
+  font-family: PhilosopherItalic;
+  src: url(../fonts/Philosopher-Italic.ttf);
+}
+
+@font-face {
+  font-family: PhilosopherRegular;
+  src: url(../fonts/Philosopher-Regular.ttf);
+}
+
+
+@font-face {
+  font-family: MyriadPro-Italic;
+  src: url(../fonts/MyriadPro-It.otf); 
+}
+
+@font-face {
+  font-family: MyriadPro-BoldIt;
+  src: url(../fonts/MyriadPro-BoldIt.otf); 
+}
+
+@font-face {
+  font-family: MyriadPro-Bold;
+  src: url(../fonts/MyriadPro-Bold.otf); 
+}
+
+@font-face {
+  font-family: MyriadPro-Regular;
+  src: url(../fonts/MyriadPro-Regular.otf); 
+}
+
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+p {
+    font-family: PhilosopherRegular;
+}
+
+.vspase-10 { height: 10em;}
+.vspase-5 { height: 5em;}
+.vspase-3{ height: 3em;}
+.vspase-2{ height: 2em;}
+.vspase-1{ height: 1em;}
+.vspase-0{ height: 0.5em;}
+.debug {border: 1px red solid;}
+
+
+h2 { font-family: PhilosopherBold; text-transform: uppercase;  font-size: 60px; line-height: 0.6; }
+
+
+
+.section_content_1 { position: absolute; top: 10px; width: 100%; padding: 0 50px; }
+.section_content_2 { position: absolute; top: 360px; left: 10px;  color: #0066cc; width: 100%;}
+.section_content_2 h2 { line-height: 1; text-transform: uppercase; }
+.section_content_2 ol { font-size: 32px;  text-transform: uppercase;  text-align: left; } 
+
+.section_content_3 { position: absolute; top: 250px; left: 5px; color: #fff; width: 100%;}
+.section_content_3 h2 { text-shadow: #003399 1px 1px 0, #003399 -1px -1px 0, #003399 -1px 1px 0, #003399 1px -1px 0; }
+
+
+.section_content_4 { top: 220px; position: absolute; left: 5px; width: 100%; }
+.section_content_4 h2 { color: #003399; text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 0px 0, white 0px -1px 0;}
+/*.home-section_4 img { display: block; margin: right; }*/
+
+.title-fonta h2 { color: #003399;   text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 0px 0, white 0px -1px 0;
+}
+
+
+
+
+.section_content_5 { position: absolute; top: 260px; left: 5px; color: #fff; width: 100%;}
+.section_content_5 h2 { line-height: 1; text-shadow: #003399 1px 1px 0, #003399 -1px -1px 0, #003399 -1px 1px 0, #003399 1px -1px 0; }
+
+.section_content_6 { position: absolute; top: 300px; left: 5px; color: #fff; width: 100%;}
+.section_content_6 h2 { line-height: 1; text-shadow: #003399 1px 1px 0, #003399 -1px -1px 0, #003399 -1px 1px 0, #003399 1px -1px 0; }
+
+.section_content_7 { position: absolute; top: 300px; left: 5px; color: #fff; width: 100%;}
+.section_content_7 h2 { line-height: 1; text-shadow: #003399 1px 1px 0, #003399 -1px -1px 0, #003399 -1px 1px 0, #003399 1px -1px 0; }
+.section_content_7 h3 {  font-family: PhilosopherBold;  line-height: 1; font-size: 4.2em; text-shadow: #003399 1px 1px 0, #003399 -1px -1px 0, #003399 -1px 1px 0, #003399 1px -1px 0; }
+.note_section_7 { line-height: 1; color: white; font-size: 2em; text-transform: uppercase; margin-top: 12em; }
+
+.contacts_content  { position: absolute; top: 300px; left: 5px; color: #0066cc; width: 100%;
+text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1px 0;}
+.contacts_content h2  { line-height: 1; text-transform: uppercase; }
+
+.contacts-section { z-index: 8; margin-top: -200px; position: relative; margin-bottom: 50px; }
+.addres { margin-top 285px;} 
+.addres p { font-size: 1.2em; line-height: 0.8; font-family: MyriadPro-Regular;} 
+
+
+
+
+.header-contacts { 
+  color: #337ab7;
+  line-height: 1; 
+  margin-top: 20px; padding: 1px;
+  color: #0066cc;
+  float: left;
+  margin-top: 20px;
+ }
+
+.header-contacts a:hover { text-decoration: none; color: #0066cc;}
+
+.phone_container { margin-top: 65px; font-family: MyriadPro-Regular; padding: 0; width: 280px;}
+.phone_container a { color: #0066cc;
+   float: right; display: table-cell; background: url(../img/top_tel.png) top left no-repeat; margin: 0;}
+
+.phone_container h4 { padding-left: 28px; font-size: 27px; margin: 0px 0px 7px 0px; color: #0066cc;}
+.callme  {margin: 1px; width: 280px;}
+
+.callme a {color: #0066cc;}
+.callme a:hover {color: #0066cc;}
+
+.contacts_flow {margin: 22px 0px 25px 0px; width: 280px;}
+
+.logo_section { margin: 0 auto; display: block; }
+
+.navigation { margin-top: 30px; margin-right: 20px; font-size: 20px; }
+.navigation ul { text-transform: uppercase;  list-style: none; float: right; margin-right: 50px; }
+.navigation li { font-family: MyriadPro-Regular; text-align: left; }
+.navigation .active { text-decoration: underline; }
+
+.navigation a { color: #0066cc; }
+.navigation a:hover { text-decoration: underline; color: #0066cc;}
+
+.slogan {
+  text-align: center;
+  text-transform: uppercase;
+  color: #fff;        
+  margin-top: 400px;
+}
+
+.slogan h1 {
+  font-family:  PhilosopherRegular;
+  margin: 0px;
+  font-size: 75px;
+  line-height: 1;
+  text-shadow: #003399 2px 2px 0, #003399 -2px -2px 0, #003399 -2px 2px 0, #003399 2px -2px 0; }
+      
+.profits h2 { font-size: 55px; }
+
+.sign_boss {
+  font-size: 25px; text-align: right; font-family: MyriadPro-Italic; 
+  float: left; margin-left: 250px; line-height: 1; margin-top: -5px; font-style: italic;
+}
+
+.blue_btn {
+text-transform: uppercase;  
+border: 2px white solid; color: white; text-decoration: none; background: #003399; padding: 15px 20px; font-size: 24px;
+}
+
+.blue_btn:hover { color: white; text-decoration: none; }
+.blue_btn:focus { color: white; text-decoration: none; }
+.blue_btn:visited { color: white; text-decoration: none; }
+.present_img {
+   margin: 250px auto 50px;
+}  
+.present_img td { padding: 10px;  }
+.section4_present_img { margin: 450px auto 50px; }  
+.section4_present_img td { padding: 10px;  }
+
+
+.present_img td { padding: 10px;  }
+.section4_present_img { margin: 450px auto 50px; }  
+.section4_present_img td { padding: 10px;  }
+
+
+.footer { padding: 70px 0px 40px 0px; height: 80px; 
+   color: #337ab7; font-size: 1em; font-weight: normal;
+}
+
+.contacts-section { height: 1000px;/* margin: 0 5px;*/}
+.addres {width: 500px; margin: 0 5px; font-size: 18px; font-family: MyriadPro-Italic; }
+.map { height: 425px; }
+
+.form_call {font-size: 20px; color: #0066cc; text-shadow: none; width: 470px; height: 299px; padding: 0px;}
+
+
+.form_title { width: 460px; padding: 8px;  margin-bottom: 20px; color: red; background-color:  #0066cc; color: white;}
+.form_call input { display: block; border: 1px #0066cc solid; width: 460px; margin-bottom: 10px; height: 40px; background-color: white;}
+.form_call textarea { display: block; border: 1px #0066cc solid; width: 460px; margin-bottom: 20px; height: 120px;}
+.submit_btn input { display: block;  border: 2px #0066cc solid;  padding: 10px; height: 50px; }
+/*
+.gallery_page h2 { color: white; line-height: 1; text-shadow: #0066cc 1px 1px 0, #0066cc -1px -1px 0, #0066cc -1px 1px 0, #0066cc 1px -1px 0; }
+*/
+
+.gallery_page h2 { color: #0066cc; line-height: 1;  }
+
+.gallery_body { /*margin-top: 40px;*/ 
+  margin: 40px auto;
+}
+.gallery_body td { border: none; border-color: white; padding: 15px;}
+.gallery_body table { border: none; border-color: white; }
+.pum-content + .pum-close { background: none; color: darkgray;}
+
+  
+.fancybox img { width: 360px; height: auto; }
+.gallery_table { margin: 0 auto; }
+.gallery_table td {padding: 15px;}
+.caption-wrap { font-size: 16px; font-family: MyriadPro-Regular; }
+.hide { display: none; }
+
+
+
+.contacts_top { 
+  display: block; float: right; line-height: 1.0; padding: 0; margin-top: -10px; 
+  font-family: MyriadPro-Regular;
+  font-size: 20px;
+  color: #0066cc;
+}
+ 
+ .facebook_ref {line-height: 1.0; padding: 0; float: right; background: url(../img/facebook.png) left no-repeat; }  }
+}
+
+
+/* section fonta TODO! */
+.section-fonta {
+  height: 2500px; z-index: 4;   margin-top: -150px; position: relative;
+    
+}
+
+.fonta-logo {  }
+
+.price-btn { margin-top: 150px;  }
+.youtube-section { margin-top: 50px; }
+
+.section-fonta h2 {color: #003399; text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 0px 0, white 0px -1px 0; line-height: 1.2;}
+.fonta-text-promo {color: #003399; font-size: 2.5em; padding: 25px 25px; line-height: 1.3; }
+.fonta-text-promo span {color: red;}
+/*
+pum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-positionpum-container popmake theme-65 pum-responsive pum-responsive-medium responsive size-medium active custom-position
+
+
+*/
+/*
+@media only screen and (min-width: 1024px){
+
+
+.pum-container { border: 1px red solid; }
+.popmake { border: 1px red solid; }
+.theme-65 { border: 1px red solid; }
+.pum-responsive { border: 1px red solid; }
+.pum-responsive-medium  { border: 1px red solid; }
+.responsive  { border: 1px red solid; }
+.size-medium  { border: 1px red solid; }
+.active  { border: 1px red solid; }
+.custom-position { border: 1px red solid; }
+ }
+
+.popmake-content { border: 1px green solid; }*/
+/*
+@media screen and (max-width: 1024){
+  .pum-container.custom-position {
+     margin-left: 200px;
+  } 
+} 
+*/
