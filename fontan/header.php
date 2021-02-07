@@ -100,7 +100,7 @@
 
 
 <style>
-	
+	/* for dev version */
 .section_service_content h2 { color:  #0066cc; font-size: 55px; }
 .section_service_content p {color:   #0066cc; font-size: 2em; line-height: 1.0; text-transform: uppercase;}
 

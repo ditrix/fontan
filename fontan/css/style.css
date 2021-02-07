@@ -184,8 +184,10 @@ text-shadow: white 1px 1px 0, white -1px -1px 0, white -1px 1px 0, white 1px -1p
   text-shadow: #003399 2px 2px 0, #003399 -2px -2px 0, #003399 -2px 2px 0, #003399 2px -2px 0; }
     
 .profits h2 { font-size: 55px; }
+/* use in prod version*/
 .section_service_content h2 { color:  #003399; font-size: 55px; }
 .section_service_content p {color:  #003399; font-size: 2em;}
+
 
 .sign_boss {
   font-size: 25px; text-align: right; font-family: MyriadPro-Italic; 

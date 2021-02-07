@@ -60,8 +60,12 @@
 <!-- section-1 + slogan -->
 <div class="content-img home-section_1">
     
+
+
     <img src="<?=$template_root?>/img/header_wave_bg.png" alt="fontann-header">
     <div class="header-bg" style="overflow: hidden;">
+
+      <!-- comment video for dev ver -->
 <!-- 
       <div class="wp-video-shortcode"  style="margin-top: -50px; margin-bottom: -60px;"> 
         <img src="/img/section_1.png" />
