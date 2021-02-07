@@ -89,15 +89,33 @@
 
 <div class="content-img home-section-service" style="height: 1300px">
    <img src="<?=$fontan_img?>/section_service.png" alt="perevagy"> 
-    <div class="section_service_content">
+    <div class="section_service_content" style="margin-top: -1050px;  z-index: 4;">
           <div class="container">
+            <div class="row">
+              <div class="col-12 text-center service">
+                <h2>повний цикл послуг</h2>
+              </div>
+            </div>
             <div class="row">
               <div class="col-md-2"></div>  
               <div class="col-md-8 text-center"> 
-
-                
+                <div class="debug section-service-logo">
+                  <img src="<?=$fontan_img?>/service_section_logo.png" alt="service"> 
+                </div>
               </div>
               <div class="col-md-2"></div>  
+            </div>
+            <div class="row">
+              <div class="col-12 text-center">
+
+                  <p>Ми є компанія «повного циклу» - від ідеї до обслуговування.</p>
+                  <p>Працюємо на ринку  бассейнів з 2009 року.</p> 
+                  <p>За цей час побудовано десятки бассейнів, змонтовано сотні фільтрів для води.</p>
+                  <p>З 2019 року споруджуємо фонтани".</p>
+
+              </div>
+            </div>
+
           </div>
     </div><!-- eof section_content_2-->  
 
